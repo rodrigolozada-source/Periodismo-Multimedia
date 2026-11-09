@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Una pequeña presentación de la ciudad de Cádiz.">
+  <title>Cádiz, la ciudad entre dos mares</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: #263238; background: #f2f8fa; }
+    header { padding: 54px 20px; text-align: center; color: white; background: linear-gradient(135deg, #075b78, #28a5b8); }
+    header h1 { margin: 0 0 10px; font-size: clamp(2rem, 6vw, 3.4rem); }
+    header p { margin: 0; font-size: 1.1rem; }
+    main { width: min(900px, 92%); margin: 34px auto; }
+    section { margin-bottom: 30px; padding: 24px; background: white; border-radius: 14px; box-shadow: 0 4px 18px rgba(0,0,0,.07); }
+    h2 { margin-top: 0; color: #08718b; }
+    img, iframe { display: block; width: 100%; border: 0; border-radius: 10px; }
+    img { max-height: 480px; object-fit: cover; }
+    .video { aspect-ratio: 16 / 9; height: auto; }
+    .pie { margin: 8px 0 0; color: #667; font-size: .88rem; }
+    footer { padding: 18px; text-align: center; color: white; background: #06445a; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cádiz, la ciudad entre dos mares</h1>
+    <p>Historia, playas y tradición en la costa andaluza</p>
+  </header>
+  <main>
+    <section>
+      <h2>Descubre Cádiz</h2>
+      <p>Cádiz es una de las ciudades más antiguas de Europa occidental y se encuentra en la costa atlántica de Andalucía. Rodeada por el mar, destaca por su historia, sus playas, sus calles estrechas y el carácter acogedor de sus habitantes.</p>
+      <p>Entre sus lugares más conocidos están la Catedral de Cádiz, el barrio de La Viña, la playa de La Caleta y la Torre Tavira, desde donde se pueden contemplar unas magníficas vistas de la ciudad. Su Carnaval, famoso por las chirigotas y las comparsas, es una de sus celebraciones más populares.</p>
+    </section>
+    <section>
+      <h2>Una imagen de Cádiz</h2>
+      <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1400&q=85" alt="Paisaje de mar y costa">
+      <p class="pie">El paisaje atlántico forma parte de la identidad de Cádiz.</p>
+    </section>
+    <section>
+      <h2>Cádiz en vídeo</h2>
+      <iframe class="video" src="https://www.youtube-nocookie.com/embed/ScMzIvxBSi4" title="Vídeo sobre Cádiz" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p class="pie">Vídeo integrado de YouTube. Se necesita conexión a internet para reproducirlo.</p>
+    </section>
+  </main>
+  <footer>Página web sencilla sobre Cádiz · HTML y CSS en un único archivo</footer>
+</body>
+</html>
